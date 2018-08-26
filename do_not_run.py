@@ -10,7 +10,8 @@ this in do_not_run.py file in which case there's your hint.
     So now from the do_not_run.py file import next_step2 and print it out to,
 you know like, continue, or whatever. IDK it's your life'''
 # Calling functions lesson
-next_step2 = '''
+next_step2 = '''Step 2:
+-------
 Okay so you've proven you understand sequence (commands execute in order and
 not all at once or something else). Now let's move on to something more confusing.
 You're going to call a function. You've already done this actually (see
@@ -22,7 +23,8 @@ then run it with
 next_step3()'''
 # Workflow lesson
 def next_step3():
-    print("")
+    print("Step 3:")
+    print("-------")
     print("Running next_step3...beep, boop")
     system("pause")
     print("All next_step* after this will be functions you run.")
@@ -31,7 +33,8 @@ def next_step3():
     system("pause")
 # Teach about seletion
 def next_step4():
-    print("")
+    print("Step 4:")
+    print("-------")
     not_ready('If-else statements "lesson"')
     system("pause")
 # End of the line
