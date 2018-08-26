@@ -1,4 +1,6 @@
 from os import system
+# Globals
+next_step1 = "Next step"
 
 def main():
     print("I said don't run me! and don't open me up in notepad++ either. My complexity will confuse your simple mind.")
