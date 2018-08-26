@@ -5,7 +5,7 @@ print("Open me up in Notepad++")
 import os
 # Pause the application using a Window's basic command
 os.system("pause")
-# Import string variable from do_not_run.py file
+# Import a string variable from do_not_run.py file
 from do_not_run import next_step1
 # Print next_step1 string (but there's a problem so fix it)
 print(next_step1)
