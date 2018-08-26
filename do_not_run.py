@@ -24,7 +24,7 @@ my_roll = randint(1,6)
 def main():
     print("I said don't run me! and don't open me up in notepad++ either. My complexity will confuse your simple mind.")
     system("pause")
-
+# Teach about calling functions
 def next_step3():
     print("Running next_step3...beep, boop")
     system("pause")
@@ -32,6 +32,15 @@ def next_step3():
     print("After you're done with one import the next")
     print("They will always run system('pause') after completing")
     system("pause")
-
+# Teach about seletion
+def next_step4():
+    not_ready('If-else statements "lesson"')
+    system("pause")
+# End of the line
+def not_ready(subject):
+    print("That's all I've pushed so far. I'll add more later.")
+    print("Coming soon: " + subject)
+    print("Remember to pull every once in a while")
+# execute only if run as a script
 if __name__ == "__main__":
     main()
