@@ -3,11 +3,11 @@
 print("Open me up in Notepad++")
 # Import the os library
 import os
-# Pause the application using a window basic command
+# Pause the application using a Window's basic command
 os.system("pause")
-# Commented out print statement of next step
+# Import string variable from do_not_run.py file
 from do_not_run import next_step1
-# Print next step string (but there's a problem so fix it)
+# Print next_step1 string (but there's a problem so fix it)
 print(next_step1)
 
 # Edit this file however you see fit
