@@ -7,10 +7,17 @@ import os
 from do_not_run import next_step1
 # Print next_step1 string (but there's a problem so fix it)
 print(next_step1)
+#import from no_no _run
 from do_not_run import next_step2
 # Print next_step2 string 
 print (next_step2)
-
+#import from do_not_run
+from do_not_run import next_step3
+#print next_step3
+print (next_step3())
+from do_not_run import next_step4
+#print next_step4
+print (next_step4())
 # Pause the application using a Window's basic command
 os.system("pause")
 
